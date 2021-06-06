@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d5b096cf21.js" crossorigin="anonymous"></script>
+    <script src="Tarea 4 Carolina Artavia.js"></script>
+    <title>Tarea 2</title>
+</head>
+<body>
+    <header class="header"><img id="header-image" src="tipos-de-redes-sociales.jpg" alt="Imagen Redes sociales">
+    <nav>
+        <a href="https://es.wikipedia.org/wiki/HTML" target="_blank">HTML</a> <span>|</span>
+        <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" target="_blank">CSS</a> <span>|</span>
+        <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+    </nav>
+    </header>
+        <h1>Tarea 3</h1>  
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Quod repellendus provident est quam hic, <span id="red-text"> expedita, quos sapiente aliquid iure quae delectus consequuntur,</span> <br> amet recusandae veniam incidunt qui reprehenderit non nulla.</p>
+    <h2>Lista de algunas redes sociales</h2>
+    <div class="social-media-div">
+        <ul>
+            <li><i class="fab fa-facebook-square"></i><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a></li>
+            <li><i class="fab fa-twitter-square"></i><a href="https://twitter.com/?lang=es" target="_blank">Twitter</a></li>
+            <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+    </div>
+    <button class="btn-toggle" id="toggleSection" onclick="toggleSection()">Mostrar Operaciones</button>
+    <br>
+    <div id="seccionOperaciones" style="display: none;"> 
+        <span>Número 1</span>
+        <input id="numero1" />
+        <span>Número 2</span>
+        <input id="numero2" />
+        <br>
+        <button class="btn-op" onclick="sumar()">Sumar</button>
+        <button class="btn-op" onclick="restar()">Resta</button>
+        <button class="btn-op" onclick="multiplicacion()">Multiplicación</button>
+        <p>Resultado: <p id="resultado"></p> </p> 
+
+    </div>
+    <footer class="footer">Hecho por Carolina Artavia</footer>
+
+</body>
+</html>
+
